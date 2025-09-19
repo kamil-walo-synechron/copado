@@ -17,3 +17,4 @@ jobs:
       - name: Say hello
         run: |
           echo "Hello world! This workflow was triggered by a comment on a pull request."
+          echo $github
