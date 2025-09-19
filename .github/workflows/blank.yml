@@ -10,7 +10,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   say-hello:
-    if: github.event.issue.pull_request && contains(github.event.comment.body, 'deploy')
+    if: github.event.issue.pull_request && contains(github.event.comment.body, '//deploy')
     
     runs-on: ubuntu-latest
     steps:
